@@ -1,3 +1,3 @@
-# STARTER-lab08
+# STARTER-lab07
 
-For: <https://ucsb-cs16.github.io/f21/lab/lab08/>
+For: <https://ucsb-cs16.github.io/f22/lab/lab07/>
