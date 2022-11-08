@@ -33,7 +33,7 @@ int main() {
     // print results
     cout << "floor area: " << floorArea << endl;
     cout << "rug area: " << rugArea << endl;
-    double leftover = rug.area() - floor.area();
+    double leftover = rugArea - floorArea;
     cout << "leftover rug area: " <<
         (leftover > 0 ? leftover : 0) << endl;
     cout << "empty floor area: " <<
