@@ -22,13 +22,17 @@ int main() {
     // RESET Rectangle NAMED "rug" FOR SIZES INPUT BY USER
     // (instead of the (0,0) used when it was created.
     
-    
+    // Change the two assignment statements for floorArea and rugArea
+    // to use the area method for each of the floor and rug objects.
+    double floorArea = -1;
+    double rugArea = -1;
+
     // DO NOT CHANGE ANYTHING BELOW (if you do, you are subject to
     // deductions, or getting a zero on the lab.))
 
     // print results
-    cout << "floor area: " << floor.area() << endl;
-    cout << "rug area: " << rug.area() << endl;
+    cout << "floor area: " << floorArea << endl;
+    cout << "rug area: " << rugArea << endl;
     double leftover = rug.area() - floor.area();
     cout << "leftover rug area: " <<
         (leftover > 0 ? leftover : 0) << endl;
